@@ -1,0 +1,13 @@
+{
+  "name": "Mảnh Cường Hóa Hiệu Suất",
+  "icon": "examplemod:manh_cuong_hoa_hieu_suat",
+  "category": "examplemod:lo_ren",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:manh_cuong_hoa_hieu_suat",
+      "text": "$(l)Mảnh Cường Hóa Hiệu Suất$()\nÁp dụng: Cúp/Rìu/Xẻng/Cuốc$(br)Hiệu quả: $(gold)Efficiency +1$()$(br)Giới hạn: 10/10."
+    }
+  ]
+}

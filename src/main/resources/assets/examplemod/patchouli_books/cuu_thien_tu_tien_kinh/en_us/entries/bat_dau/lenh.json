@@ -1,0 +1,36 @@
+{
+  "name": "Lệnh quan trọng",
+  "icon": "minecraft:command_block",
+  "category": "examplemod:bat_dau",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Lệnh cơ bản$()\n$(thing)/tu$(): bật/tắt tọa tu.\n$(thing)/tuvi$(): xem cảnh giới và linh khí.\n$(thing)/dotpha$(): đột phá cảnh giới.\n$(thing)/i$() hoặc $(thing)/info$(): xem thông tin item, cường hóa và tỉ lệ ép."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Lệnh tiện ích$()\n$(thing)/bay$(): bật/tắt bay theo tu vi.\n$(thing)/nadi$(): Na Di/thân pháp dịch chuyển.\n$(thing)/aura on/off$(): bật/tắt hào quang cảnh giới.\n$(thing)/thiennhan <user>$(): mở kho đồ người chơi để xem."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Thần thông chiến đấu 1$()\n$(thing)/dapgio$(): Trúc Cơ+, Speed III 15s, hồi 30s.\n$(thing)/tangcuong$(): Kim Đan+, Sức Mạnh II 20s, hồi 60s.\n$(thing)/tichdietchi$(): Kim Đan+, tiêu hao 30% máu hiện tại bắn chỉ lực, hồi 60s."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Thần thông lôi pháp$()\n$(thing)/loitienkiep$(): Nguyên Anh+, gọi sét diện rộng 15 block, hồi 120s.\nAlias dùng được: $(thing)/loikiep$(), $(thing)/loithienkiep$().\n$(thing)/nguyenlucloidinh$(): Nguyên Anh+, 10s chuyển sát thương nhận vào thành hồi máu, hồi 60s."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Thần thông vũ khí$()\nCần vũ khí có Ngọc Theo Dõi Kill và đủ 5000 kill.\n$(thing)/tramlaquyet$(): kiếm khí, hồi 120s, tốn 20% độ bền.\n$(thing)/khaithien$(): rìu gọi trụ lửa, hồi 300s, tốn 20% độ bền.\n$(thing)/xakich$(): cung/nỏ bắn tử quang, hồi 120s, tốn 20% độ bền."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Lệnh admin / test$()\n$(thing)/tangkill <amount>$(): OP tăng kill cho vũ khí đang cầm của bản thân.\n$(thing)/tangkill <user> <amount>$(): OP tăng kill cho vũ khí đang cầm của người chơi khác.\nDùng để test các skill 5000 kill như Trảm La Quyết, Khai Thiên, Xạ Kích."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Môn phái$()\n$(thing)/monphai$(): xem hệ thống môn phái.\n$(thing)/monphai tao <ten> <loai>$(): Kim Đan+ tạo môn phái.\nThần thông cấp 5: $(thing)/vanthitoc$(), $(thing)/thonhondaitran$(), $(thing)/cuonghuyet$(), $(thing)/kiemkhihoahinh$(), $(thing)/hoalienhoa$()."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Chu trình Bí Cảnh",
+  "icon": "examplemod:thien_dao_ket_tinh",
+  "category": "examplemod:bi_canh",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cứ khoảng $(gold)20 phút$(), hệ thống có thể spawn $(l)Kẻ Gác Cổng Bí Cảnh$() gần một người chơi ngẫu nhiên. Nó là boss tự tạo mặc giáp, khoảng 1000 HP."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Giết Kẻ Gác Cổng → thông báo tọa độ → 60 giây tập hợp → chốt danh sách → đếm ngược 10 giây → 4 đợt quái. Người chết trong bí cảnh bị loại khỏi danh sách nhận thưởng."
+    }
+  ]
+}

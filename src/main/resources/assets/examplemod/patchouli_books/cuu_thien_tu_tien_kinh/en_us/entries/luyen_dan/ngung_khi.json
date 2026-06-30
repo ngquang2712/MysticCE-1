@@ -1,0 +1,17 @@
+{
+  "name": "Ngưng Khí Đan",
+  "icon": "examplemod:ngung_khi_dan",
+  "category": "examplemod:luyen_dan",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:ngung_khi_dan",
+      "text": "$(l)Ngưng Khí Đan$()\nCông thức: $(br)2 Tụ Khí Đan + Huyết Linh Thảo + Ma Hạch$(br2)Tỉ lệ thành công: $(gold)95%$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Các icon này là nguyên liệu chính/xúc tác. Với công thức dạng 2 đan, hãy đặt 2 viên đan giống nhau vào ô 0 và ô 1.$(br2)Nguyên liệu liên quan: examplemod:tu_khi_dan, examplemod:huyet_linh_thao, examplemod:ma_hach"
+    }
+  ]
+}

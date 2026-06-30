@@ -1,0 +1,16 @@
+{
+  "name": "Cơ chế Lò Rèn",
+  "icon": "minecraft:anvil",
+  "category": "examplemod:lo_ren",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dùng $(thing)Đe$() như vanilla. Đặt trang bị ở ô trái, mảnh cường hóa ở ô phải. Khi lấy kết quả, hệ thống sẽ random thành công/thất bại."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Thất bại chỉ mất mảnh, trang bị giữ nguyên. Mỗi loại cường hóa tối đa $(gold)10 lần$(). Dùng $(thing)/i$() để xem số lần ép và tỉ lệ lần kế tiếp."
+    }
+  ]
+}

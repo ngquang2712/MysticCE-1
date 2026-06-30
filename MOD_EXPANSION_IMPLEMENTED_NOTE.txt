@@ -1,0 +1,22 @@
+MysticCE Expansion implemented by ChatGPT
+
+Added:
+- 4 enhancement shards for anvil enhancement:
+  manh_cuong_hoa_sac_ben, manh_cuong_hoa_power, manh_cuong_hoa_giap, manh_cuong_hoa_hieu_suat
+- 10 herb materials for alchemy.
+- 6 mob materials.
+- 6 boss materials.
+- 3 tinh thach items for Tu Linh Tran.
+- Vanilla texture based item models and lang entries.
+- /i and /info command to inspect enhancement count and next success rate.
+- Anvil enhancement system with max 10 per type and success chance by level.
+- First login guide book: Huong Dan Tu Tien.
+- Basic brewing stand recipes for cultivation pills using new materials.
+- Basic Tu Linh Tran activation by right clicking Beacon with tinh thach.
+- /tu gains extra linh khi near activated Tu Linh Tran.
+- Basic /monphai tao and /monphai info plus sect skills.
+- Basic Bicảnh event loop: guardian spawn, participant lock, 4 waves, direct inventory rewards.
+
+Notes:
+- Build was not run in this environment because Gradle wrapper tried to download gradle-8.8 and internet access is blocked.
+- Please run ./gradlew build locally. If a compile error appears, send the log and I will patch it.

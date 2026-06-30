@@ -1,0 +1,16 @@
+Restored missing cultivation/weapon skill commands in src/main/java/com/example/examplemod/cultivation/CultivationSkillCommands.java
+
+Added commands:
+/dapgio
+/tichdietchi
+/loitienkiep
+/loikiep
+/loithienkiep
+/nguyenlucloidinh
+/tramlaquyet
+/khaithien
+/xakich
+/tangkill <amount>
+/tangkill <user> <amount>
+
+This file was added as a separate command class to avoid overwriting existing commands such as /tuvi, /monphai, pet commands, appearance commands, and /thiennhan.

@@ -1,0 +1,13 @@
+{
+  "name": "Mảnh Cường Hóa Sắc Bén",
+  "icon": "examplemod:manh_cuong_hoa_sac_ben",
+  "category": "examplemod:lo_ren",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:manh_cuong_hoa_sac_ben",
+      "text": "$(l)Mảnh Cường Hóa Sắc Bén$()\nÁp dụng: Kiếm/Rìu$(br)Hiệu quả: $(gold)Sharpness +1$()$(br)Giới hạn: 10/10."
+    }
+  ]
+}

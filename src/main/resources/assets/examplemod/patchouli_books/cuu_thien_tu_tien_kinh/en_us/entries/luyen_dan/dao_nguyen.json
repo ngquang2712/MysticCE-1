@@ -1,0 +1,17 @@
+{
+  "name": "Đạo Nguyên Đan",
+  "icon": "examplemod:dao_nguyen_dan",
+  "category": "examplemod:luyen_dan",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:dao_nguyen_dan",
+      "text": "$(l)Đạo Nguyên Đan$()\nCông thức: $(br)2 Đế Nguyên Đan + Cửu Diệp Linh Chi + Sừng Kỳ Lân$(br2)Tỉ lệ thành công: $(gold)70%$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Các icon này là nguyên liệu chính/xúc tác. Với công thức dạng 2 đan, hãy đặt 2 viên đan giống nhau vào ô 0 và ô 1.$(br2)Nguyên liệu liên quan: examplemod:de_nguyen_dan, examplemod:cuu_diep_linh_chi, examplemod:sung_ki_lan"
+    }
+  ]
+}

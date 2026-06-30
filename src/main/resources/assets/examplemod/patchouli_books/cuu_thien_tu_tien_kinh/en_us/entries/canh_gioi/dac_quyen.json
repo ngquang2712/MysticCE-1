@@ -1,0 +1,16 @@
+{
+  "name": "Đặc quyền cảnh giới",
+  "icon": "examplemod:thien_menh_dan",
+  "category": "examplemod:canh_gioi",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Mốc quan trọng$()\nTrúc Cơ+: mở tọa tu $(thing)/tu$().\nKim Đan+: có thể tạo môn phái.\nNguyên Anh+ trở lên: mở dần các thần thông, kỹ năng và đặc quyền tu tiên."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Các cảnh giới cao như Khuy Niết, Đạp Thiên, Tiên Đế có hào quang mạnh hơn và hiệu ứng nổi bật hơn. Dùng $(thing)/aura$() để bật/tắt hào quang."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Mảnh Cường Hóa Power",
+  "icon": "examplemod:manh_cuong_hoa_power",
+  "category": "examplemod:lo_ren",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:manh_cuong_hoa_power",
+      "text": "$(l)Mảnh Cường Hóa Power$()\nÁp dụng: Cung$(br)Hiệu quả: $(gold)Power +1$()$(br)Giới hạn: 10/10."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Đại Niết Bàn Đan",
+  "icon": "examplemod:dai_niet_ban_dan",
+  "category": "examplemod:luyen_dan",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:dai_niet_ban_dan",
+      "text": "$(l)Đại Niết Bàn Đan$()\nCông thức: $(br)2 Niết Bàn Đan + Hộ Pháp Thượng Cổ Lệnh Bài + Thần Huyết$(br2)Tỉ lệ thành công: $(gold)35%$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Các icon này là nguyên liệu chính/xúc tác. Với công thức dạng 2 đan, hãy đặt 2 viên đan giống nhau vào ô 0 và ô 1.$(br2)Nguyên liệu liên quan: examplemod:niet_ban_dan, examplemod:ho_phap_thuong_co_lenh_bai, examplemod:than_huyet"
+    }
+  ]
+}

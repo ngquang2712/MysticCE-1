@@ -1,0 +1,17 @@
+{
+  "name": "Âm Dương Đan",
+  "icon": "examplemod:am_duong_dan",
+  "category": "examplemod:luyen_dan",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:am_duong_dan",
+      "text": "$(l)Âm Dương Đan$()\nCông thức: $(br)2 Đại Đạo Đan + Bản Nguyên Chi Khí + Thiên Mệnh Đan$(br2)Tỉ lệ thành công: $(gold)45%$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Các icon này là nguyên liệu chính/xúc tác. Với công thức dạng 2 đan, hãy đặt 2 viên đan giống nhau vào ô 0 và ô 1.$(br2)Nguyên liệu liên quan: examplemod:dai_dao_dan, examplemod:ban_nguyen_chi_khi, examplemod:thien_menh_dan"
+    }
+  ]
+}

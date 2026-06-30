@@ -1,0 +1,13 @@
+FINAL FIX 2026-06-27
+
+- Fixed compile error in CultivationMobEvents.java caused by missing variable `target`.
+- PvP combat marking for /bay now only triggers when both attacker and victim are players.
+- PvE/mob combat will not disable /bay.
+- Removed stale build/ output from this zip so old compiled jars/classes cannot be used by mistake.
+
+Build on your PC:
+  .\gradlew clean build
+or test client:
+  .\gradlew runClient
+
+Use the new jar generated in build/libs after building.

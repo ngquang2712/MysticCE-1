@@ -1,0 +1,16 @@
+{
+  "name": "Cấp Môn Phái",
+  "icon": "minecraft:beacon",
+  "category": "examplemod:mon_phai",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cấp 1: 2 Trúc Cơ+ → Speed II.\nCấp 2: 3 Kim Đan+ → Jump II, Haste II.\nCấp 3: 2 Nguyên Anh+ → Kháng lửa, nhìn đêm."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cấp 4: 1 Anh Biến+ → +10 giáp, +20 máu.\nCấp 5: 1 Vấn Đỉnh+ → mở thần thông môn phái.\nCấp 6: 2 Vấn Đỉnh+ → x2 linh khí khi /tu và diệt quái."
+    }
+  ]
+}

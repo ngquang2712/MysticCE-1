@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "examplemod:item/thuong_co_pet_egg"
+  }
+}

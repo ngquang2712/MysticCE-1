@@ -1,0 +1,36 @@
+Bản sửa theo yêu cầu:
+
+1) Sửa giao diện/lore CE mới
+- Đã thêm đầy đủ tooltip màu, icon, mô tả cho:
+  Thiên Mệnh, Quy Chân, Vạn Kiếm, Nhật Nguyệt, Phá Không, Khai Thiên.
+- Khi ép vào mũ/giáp/kiếm/quần/giày/rìu sẽ hiện cùng style MYSTIC CE như các CE cũ.
+
+2) Sửa Vạn Kiếm
+- Không còn cộng dồn thành x4/x5 damage cùng một lúc.
+- Khi kích hoạt, Vạn Kiếm sẽ tạo sát thương theo từng nhịp cách nhau 8 tick:
+  I = 1 nhịp, II = 2 nhịp, III = 3 nhịp, IV = 4 nhịp.
+- Mỗi nhịp gây lại đúng lượng sát thương của đòn vừa gây.
+
+3) Thêm/sửa CE Thách Đấu
+- Thiên Mệnh: mũ, I-III, chống chí tử, máu vàng 100% HP, Speed III, Strength III, CD 200s.
+- Quy Chân: giáp, I-III, dưới 20% HP hồi đầy, xóa hiệu ứng xấu, đòn sau +50%, CD 120s.
+- Nhật Nguyệt: quần, I-V, 30% khi bị đánh, đánh chí mạng 2-6s, CD 120s.
+- Phá Không: giày, I, né 1 đòn, dịch sau mục tiêu, đòn sau gây 300%, CD 120s.
+- Khai Thiên: rìu, I-III, gây thêm 2/5/10% máu hiện tại của mục tiêu.
+
+4) Set Thiên Hà
+- Thêm mũ/giáp/quần/giày/kiếm/rìu Thiên Hà.
+- Dùng ngoại hình/model item Netherite.
+- Giáp mạnh hơn Thượng Cổ 3 giáp mỗi món.
+- Full set: +30% damage, +50 tim, Đề Kháng V.
+
+5) Hệ thống thời kỳ quái/boss
+- Khởi Nguyên: HP/Attack/Skill x1, sát thương theo máu người chơi +0%.
+- Nether: x1.5, +1% HP tối đa người chơi.
+- The End: x2, +2% HP tối đa người chơi.
+- Thượng Cổ: x2.5, +3% HP tối đa người chơi.
+- Hỗn Độn: x3, +4% HP tối đa người chơi.
+- Thiên Hà: x4, +5% HP tối đa người chơi.
+- Buff áp dụng cho mob/boss từ tất cả mods thông qua Mob/Attribute và LivingHurtEvent.
+
+Lưu ý: môi trường sửa file không tải được Gradle vì bị chặn mạng services.gradle.org, nên chưa build test bằng gradle được trong sandbox.

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NBN",
+    "GNG",
+    "NBN"
+  ],
+  "key": {
+    "B": { "item": "minecraft:sculk_catalyst" },
+    "G": { "item": "examplemod:shield_enhance_ii" },
+    "N": { "item": "minecraft:nether_star" }
+  },
+  "result": { "item": "examplemod:shield_enhance_iii", "count": 1 }
+}

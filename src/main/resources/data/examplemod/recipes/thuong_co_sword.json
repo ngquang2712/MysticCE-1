@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sculk_catalyst",
+      "count": 16
+    },
+    {
+      "item": "minecraft:nether_star",
+      "count": 16
+    },
+    {
+      "item": "minecraft:netherite_block",
+      "count": 16
+    },
+     {
+      "item": "examplemod:long_phuong_ngu_sac",
+      "count": 1
+    },
+     {
+      "item": "examplemod:manh_vo_thuong_co",
+      "count": 1
+    },
+    {
+      "item": "examplemod:vay_long_de",
+      "count": 1
+    },
+      {
+        "item": "examplemod:sung_ki_lan",
+        "count": 1
+      },
+      {
+        "item": "examplemod:toi_cao_sword",
+        "count": 1
+      }
+  ],
+  "result": {
+    "item": "examplemod:thuong_co_sword",
+    "count": 1
+  }
+}

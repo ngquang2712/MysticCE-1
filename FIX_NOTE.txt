@@ -1,0 +1,18 @@
+Bản này được đóng gói lại từ toàn bộ project, không phải chỉ zip vài file thay đổi.
+
+Đã thêm/sửa:
+- Copy armor trim khi dùng /copyappearance.
+- /changeappearance áp dụng cả Trim NBT vào giáp Mystic.
+- /resetappearance sẽ xóa trim đã copy bằng hệ thống appearance.
+- Thêm /copyweaponappearance, /changeweaponappearance, /resetweaponappearance, /weaponappearanceinfo.
+- Thêm client baked model wrapper để kiếm/rìu Mystic có thể hiển thị bằng model item đã copy.
+
+Cách dùng vũ khí:
+1. Cầm kiếm/rìu muốn copy.
+2. /copyweaponappearance
+3. Cầm kiếm/rìu Mystic cùng loại.
+4. /changeweaponappearance
+
+Lưu ý:
+- Armor custom 3D vẫn cần adapter riêng từng mod.
+- Weapon custom item renderer quá đặc biệt có thể không copy được 100%, nhưng item model JSON bình thường sẽ ổn hơn armor.

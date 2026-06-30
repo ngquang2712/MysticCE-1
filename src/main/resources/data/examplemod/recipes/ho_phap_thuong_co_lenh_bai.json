@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "INI",
+    "NEN",
+    "INI"
+  ],
+  "key": {
+    "I": { "item": "minecraft:netherite_block" },
+    "N": { "item": "minecraft:sculk_catalyst" },
+    "E": { "item": "minecraft:nether_star" }
+  },
+  "result": {
+    "item": "examplemod:ho_phap_thuong_co_lenh_bai",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Thiên Đạo Kết Tinh",
+  "icon": "examplemod:thien_dao_ket_tinh",
+  "category": "examplemod:vat_pham",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:thien_dao_ket_tinh",
+      "text": "Nguyên liệu boss rất hiếm, dùng luyện Hỗn Nguyên Đan."
+    }
+  ]
+}

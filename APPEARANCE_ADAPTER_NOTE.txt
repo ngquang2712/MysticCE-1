@@ -1,0 +1,20 @@
+MysticCEFix - Armor Appearance Adapter Update
+
+Đã thêm:
+- /copyappearance: cầm một món giáp rồi copy item id + loại giáp.
+- /changeappearance: áp dụng ngoại hình đã copy vào món cùng slot đang mặc trong full set Mystic.
+- Vẫn giữ hỗ trợ cũ: /changeappearance <helmet|chestplate|leggings|boots> <item_id>
+- /resetappearance <slot|all>
+- /appearanceinfo: xem ngoại hình đã copy và ngoại hình 4 slot.
+
+Hệ thống adapter mới:
+- AppearanceAdapter.java
+- AppearanceRegistry.java
+- VanillaArmorAppearanceAdapter.java
+- CustomModelNoticeAdapter.java
+
+Hiện tại:
+- Giáp vanilla/simple texture: đổi texture qua getArmorTexture.
+- Giáp custom 3D/GeckoLib như Cataclysm, Ice and Fire, Legend Monster: hệ thống nhận diện và lưu được AppearanceItem, nhưng sẽ fallback nếu cần renderer riêng.
+
+Muốn hiện đủ sừng/cánh/model 3D của từng mod thì cần viết adapter client riêng cho chính mod đó, vì mỗi mod có renderer/model riêng không thể copy tự động 100% chỉ từ Item ID.

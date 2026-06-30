@@ -1,0 +1,16 @@
+{
+  "name": "Thứ tự cảnh giới",
+  "icon": "minecraft:experience_bottle",
+  "category": "examplemod:canh_gioi",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Thứ tự chính$()\nLuyện Khí → Trúc Cơ → Kim Đan → Nguyên Anh → Hóa Thần → Anh Biến → Vấn Đỉnh → Âm Hư → Dương Thực → Khuy Niết → Đạp Thiên → Tiên Đế."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Mỗi cảnh giới tăng sức mạnh, máu ảo, khả năng chiến đấu và mở thêm đặc quyền. Các mốc cao sẽ có thông báo toàn server và hào quang riêng."
+    }
+  ]
+}

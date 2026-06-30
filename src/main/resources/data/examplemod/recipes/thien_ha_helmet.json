@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sculk_catalyst",
+      "count": 32
+    },
+    {
+      "item": "minecraft:nether_star",
+      "count": 16
+    },
+    {
+      "item": "minecraft:netherite_block",
+      "count": 16
+    },
+     {
+      "item": "examplemod:long_phuong_ngu_sac",
+      "count": 9
+    },
+     {
+      "item": "examplemod:manh_vo_thuong_co",
+      "count": 9
+    },
+    {
+      "item": "examplemod:vay_long_de",
+      "count": 9
+    },
+      {
+        "item": "examplemod:sung_ki_lan",
+        "count": 9
+      },
+      {
+        "item": "examplemod:thuong_co_helmet",
+        "count": 9
+      }
+  ],
+  "result": {
+    "item": "examplemod:thien_ha_helmet",
+    "count": 1
+  }
+}

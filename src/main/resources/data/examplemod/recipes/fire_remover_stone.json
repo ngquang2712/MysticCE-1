@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "examplemod:ink_sack"
+    }
+  ],
+  "result": {
+    "item": "examplemod:fire_remover_stone",
+    "count": 1
+  }
+}

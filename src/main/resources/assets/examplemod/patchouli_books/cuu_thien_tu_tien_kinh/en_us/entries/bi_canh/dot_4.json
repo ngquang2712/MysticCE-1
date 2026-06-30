@@ -1,0 +1,16 @@
+{
+  "name": "Boss đợt 4",
+  "icon": "examplemod:thuong_co_chi_tam",
+  "category": "examplemod:bi_canh",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Đợt 4 dùng 4 boss có sẵn của mod, không tự tạo boss mới. HP mục tiêu: $(br)Thượng Cổ: 10k$(br)Thiên Đạo: 20k$(br)Cổ Thần: 50k$(br)Thanh Lâm: 100k"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Boss/quái lớn dùng hệ HP ảo nên có thể vượt giới hạn 1024 HP của Minecraft vanilla."
+    }
+  ]
+}

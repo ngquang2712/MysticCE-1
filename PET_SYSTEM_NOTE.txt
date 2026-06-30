@@ -1,0 +1,22 @@
+Đã thêm hệ thống pet v1:
+
+Items:
+- truyen_thuyet_pet_egg
+- toi_cao_pet_egg
+- thuong_co_pet_egg
+
+Lệnh:
+- /callpet <1|2|3>
+- /petstore
+- /renamepet <ten co ma mau &>
+
+Cơ chế:
+- Chuột phải trứng xuống đất: tạo pet và lưu vào slot trống trong kho 3 slot.
+- Pet dùng entity riêng examplemod:mystic_pet, render tạm bằng model/texture wolf vanilla.
+- Pet lưu owner, rarity, level, exp, tên màu và active entity UUID.
+- Pet đánh chết động vật/quái để nhận exp.
+- Pet chết sẽ về kho và cooldown 120 giây mới gọi lại được.
+- /renamepet dùng cùng ColorTextUtil với /renameitem, hỗ trợ &a, &l, &k,... và tiêu hao Rename Scroll nếu không ở creative.
+
+Lưu ý:
+- Môi trường ChatGPT không tải được Gradle wrapper vì bị chặn internet, nên chưa chạy được compileJava tại đây. Nếu IDE báo lỗi nhỏ theo mapping Forge, gửi log lỗi mình sẽ sửa tiếp nhanh.

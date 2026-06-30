@@ -1,0 +1,16 @@
+{
+  "name": "Kích hoạt Tụ Linh Trận",
+  "icon": "minecraft:beacon",
+  "category": "examplemod:tu_linh_tran",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tụ Linh Trận dùng $(thing)Beacon$(). Xây Beacon như vanilla, sau đó dùng tinh thạch tu tiên để khai trận. Có 3 cấp: I, II, III."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Mỗi cấp dùng nguyên liệu khác nhau. Chỉ khi người chơi đang /tu trong phạm vi Beacon mới nhận thêm linh khí.$(br2)Nguyên liệu liên quan: examplemod:tinh_thach_ha_pham, examplemod:tinh_thach_trung_pham, examplemod:tinh_thach_thuong_pham"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "GNG",
+    " B "
+  ],
+  "key": {
+    "B": { "item": "minecraft:nether_star" },
+    "G": { "item": "examplemod:shield_enhance_i" },
+    "N": { "item": "minecraft:dragon_egg" }
+  },
+  "result": { "item": "examplemod:shield_enhance_ii", "count": 1 }
+}

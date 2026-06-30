@@ -1,0 +1,16 @@
+{
+  "name": "Quy trình tu tiên",
+  "icon": "examplemod:tu_khi_dan",
+  "category": "examplemod:bat_dau",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Quy trình cơ bản$()\n1. Săn quái/đánh boss để lấy linh khí và nguyên liệu.\n2. Dùng $(thing)/tu$() để tọa tu.\n3. Dùng đan dược để tăng linh khí hoặc hộ thân khi độ kiếp.\n4. Đủ điều kiện thì dùng $(thing)/dotpha$() để đột phá."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Sau khi mạnh hơn, hãy tham gia $(thing)Bí Cảnh$(), cường hóa vũ khí bằng $(thing)Lò Rèn$(), luyện đan cấp cao và gia nhập/tạo $(thing)Môn Phái$()."
+    }
+  ]
+}

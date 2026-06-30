@@ -1,0 +1,13 @@
+{
+  "name": "Bản Nguyên Chi Khí",
+  "icon": "examplemod:ban_nguyen_chi_khi",
+  "category": "examplemod:vat_pham",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:ban_nguyen_chi_khi",
+      "text": "Nguyên liệu thần thoại, dùng luyện đan cuối game."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "examplemod:dao_nguyen_dan"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "examplemod:am_duong_dan"
+    }
+  ],
+  "result": {
+    "item": "examplemod:hon_nguyen_dan",
+    "count": 1
+  }
+}

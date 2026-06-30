@@ -1,0 +1,17 @@
+{
+  "name": "Tiên Nguyên Đan",
+  "icon": "examplemod:tien_nguyen_dan",
+  "category": "examplemod:luyen_dan",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:tien_nguyen_dan",
+      "text": "$(l)Tiên Nguyên Đan$()\nCông thức: $(br)2 Huyền Nguyên Đan + Băng Tâm Thảo + Mảnh Vỡ Thượng Cổ$(br2)Tỉ lệ thành công: $(gold)60%$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Các icon này là nguyên liệu chính/xúc tác. Với công thức dạng 2 đan, hãy đặt 2 viên đan giống nhau vào ô 0 và ô 1.$(br2)Nguyên liệu liên quan: examplemod:huyen_nguyen_dan, examplemod:bang_tam_thao, examplemod:manh_vo_thuong_co"
+    }
+  ]
+}

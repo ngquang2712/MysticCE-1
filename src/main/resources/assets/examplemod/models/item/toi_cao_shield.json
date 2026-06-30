@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/shield",
+  "overrides": [
+    {
+      "predicate": {"blocking": 1},
+      "model": "examplemod:item/toi_cao_shield_blocking"
+    }
+  ]
+}

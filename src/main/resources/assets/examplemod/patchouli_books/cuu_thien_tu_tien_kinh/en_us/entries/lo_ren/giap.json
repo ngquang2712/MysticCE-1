@@ -1,0 +1,13 @@
+{
+  "name": "Mảnh Cường Hóa Giáp",
+  "icon": "examplemod:manh_cuong_hoa_giap",
+  "category": "examplemod:lo_ren",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:manh_cuong_hoa_giap",
+      "text": "$(l)Mảnh Cường Hóa Giáp$()\nÁp dụng: Mũ/Giáp/Quần/Giày$(br)Hiệu quả: $(gold)+1 Armor$()$(br)Giới hạn: 10/10."
+    }
+  ]
+}

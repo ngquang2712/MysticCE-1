@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:prismarine_shard",
+      "count": 4
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "count":4
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "count": 4
+    }
+  ],
+  "result": {
+    "item": "examplemod:manh_cuong_hoa_hieu_suat",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+BICANH + THIENNHAN FIX
+
+1) Bi canh / Ke Gac Cong Bi Canh
+- Ke Gac Cong Bi Canh chi spawn tren mat dat quanh player khoang 20-30 block.
+- Da them ham tim vi tri surface an toan, chan spawn duoi void, trong nuoc/lava, trong block dac, vi tri khong co nen dung.
+- Neu Ke Gac Cong Bi Canh ton tai qua 5 phut khong ai giet, entity tu bi xoa, Bi Canh ket thuc va bat dau cooldown 20 phut.
+- Neu den luc chot danh sach ma khong co ai dung gan Bi Canh, Bi Canh tu dong dong va cooldown 20 phut.
+- Neu dang di Bi Canh ma khong con nguoi tham gia hop le/online/song/o gan khu Bi Canh, Bi Canh tu dong dong va cooldown 20 phut.
+- Khi Bi Canh ket thuc/thanh cong/tu dong dong, lan tiep theo phai doi 20 phut moi xuat hien.
+
+2) /thiennhan <user>
+- Sua lai tu viec in list item ra chat thanh mo GUI kho do cua user can xem.
+- GUI Thien Nhan o phan target la read-only: khong cho lay/chuyen/shift-click do cua target de tranh mat do/dupe.
+
+Luu y: Build folder cu khong nen dung vi co the chua class/jar cu. Hay build lai bang ./gradlew build sau khi mo project tren may co internet/gradle cache.

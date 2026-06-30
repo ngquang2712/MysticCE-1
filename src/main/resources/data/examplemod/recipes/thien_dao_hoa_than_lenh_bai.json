@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GDG",
+    "DND",
+    "GTG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_block" },
+    "D": { "item": "examplemod:ho_phap_thuong_co_lenh_bai" },
+    "T": { "item": "examplemod:manh_vo_thuong_co" },
+    "N": { "item": "minecraft:nether_star" }
+  },
+  "result": {
+    "item": "examplemod:thien_dao_hoa_than_lenh_bai",
+    "count": 1
+  }
+}

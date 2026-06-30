@@ -1,0 +1,37 @@
+TUTIEN SYSTEM ADDED
+===================
+
+Đã thêm package: com.example.examplemod.cultivation
+
+Tính năng chính:
+- Cảnh giới: Luyện Khí -> Trúc Cơ -> Kim Đan -> Nguyên Anh -> Hóa Thần -> Anh Biến -> Vấn Đỉnh -> Âm Hư -> Dương Thực -> Khuy Niết -> Đạp Thiên -> Tiên Đế.
+- Luyện Khí tầng 1-9; các cảnh giới sau dùng sơ kỳ/trung kỳ/hậu kỳ/viên mãn; Đạp Thiên có đại viên mãn; sau đó lên Tiên Đế.
+- Chỉ số HP/dame theo từng tầng/kỳ đúng thiết kế đã chốt.
+- Tu vi cao hưởng đặc quyền của tu vi thấp.
+- /tuvi: xem UI chat thông tin tu vi.
+- /tuvi top: xem top tu vi online.
+- /dotpha: tiêu linh khí cần thiết, bắt đầu độ kiếp, có boss bar, sét visual, roll tỉ lệ.
+- Đột phá thất bại: chết + tụt 1 bậc; đan bảo vệ có thể đổi cách phạt.
+- Giết quái nhận linh khí theo max HP; giết tu sĩ nhận linh khí theo cảnh giới/kỳ.
+- Kim Đan trở lên không đói; Nguyên Anh trở lên có bay.
+- Vấn Đỉnh trở lên: /invsee <user> và [i] show item.
+- Âm Hư trở lên: nhìn đêm và thông báo khi join server.
+- Dương Thực trở lên: /apche <user>, cooldown 120s, chỉ tác dụng với dưới Âm Hư.
+- Khuy Niết trở lên: /dietsat <user>, cooldown 120s, chỉ tác dụng với dưới Âm Hư; bắt đầu sprint/phím R sẽ thuấn di khoảng 9 block.
+- Đạp Thiên trở lên: chat "Định <user>" hoặc /dinh <user>, cooldown 120s.
+- Tiên Đế: bất tử, miễn /apche, /dietsat, Định, có aura particle.
+- Đan dược dùng item custom nhưng model/texture lấy từ item vanilla có sẵn.
+
+Lệnh admin test:
+- /tuviadd <user> <amount>
+- /tuviset <user> <realm_key> <stage>
+Ví dụ realm_key: LUYEN_KHI, TRUC_CO, KIM_DAN, NGUYEN_ANH, HOA_THAN, ANH_BIEN, VAN_DINH, AM_HU, DUONG_THUC, BUOC_3, BUOC_4, TIEN_DE
+
+Lưu ý:
+- Không thể compile trong môi trường hiện tại vì Gradle wrapper cần tải Gradle từ services.gradle.org nhưng sandbox không có internet.
+
+UPDATE 2026-06-24:
+- Tối ưu máu tu tiên: tim vanilla hiển thị bị giới hạn tối đa khoảng 40 tim, phần máu vượt quá được lưu thành HP Tu Tiên ảo trong NBT và bị trừ trước khi trừ máu vanilla.
+- Thuấn di đổi từ double W sang phím R, dành cho Khuy Niết trở lên, khoảng cách 9 block theo hướng nhìn.
+- Thêm network packet client -> server cho phím R thuấn di.
+- Bổ sung model/texture cho các item còn thiếu/mượn vanilla quá thô: Thiên Hà item icons, đá/mảnh cường hóa, fire CE items, example item/block.

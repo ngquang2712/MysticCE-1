@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/shield",
+  "overrides": [
+    {
+      "predicate": {"blocking": 1},
+      "model": "examplemod:item/truyen_thuyet_shield_blocking"
+    }
+  ]
+}

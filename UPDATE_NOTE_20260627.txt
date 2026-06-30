@@ -1,0 +1,10 @@
+Đã sửa/thêm:
+- CE Xạ Kích I-V cho cung: gây thêm 3/5/7/9/15% máu tối đa mục tiêu, có tooltip/giao diện CE cùng style.
+- /bay: Nguyên Anh+ dùng /bay để bật bay, /bay lần nữa để tắt. Khi PvP sẽ tự cắt bay trong 15 giây giao chiến.
+- /nadi: Nguyên Anh+ tăng tốc 20 giây, cooldown 90s.
+- /tutien help và /tuvi help: hiển thị lệnh + đặc quyền tu vi.
+- /tu: tọa tu Trúc Cơ+, tăng linh khí mạnh hơn theo % chi phí đột phá.
+- Set Nhâm Dần: texture vanilla đồ da, kiếm/rìu gỗ; full set đề kháng + 30 tim; giáp mỗi mảnh +3; kiếm 13 dame, rìu 15 dame.
+- Quái tu tiên: mỗi 5-10 phút sinh 1-7 quái gần player, ngoại hình zombie/skeleton/husk/stray/drowned, có cảnh giới tu tiên tối đa Đạp Thiên 5, tăng HP/dame theo tu vi.
+- Drop quái Khuy Niết - Đạp Thiên: đan dược và vật phẩm hiếm Sừng Kì Lân, Mảnh Vỡ Thượng Cổ, Lông Phượng Ngũ Sắc, Vảy Long Đế.
+Lưu ý: môi trường hiện tại không tải được Gradle từ internet nên chưa chạy build thực tế trong container.

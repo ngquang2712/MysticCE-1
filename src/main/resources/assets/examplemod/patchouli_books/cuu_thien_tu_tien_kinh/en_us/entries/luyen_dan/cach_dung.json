@@ -1,0 +1,16 @@
+{
+  "name": "Cách dùng Dàn Pha Chế",
+  "icon": "minecraft:brewing_stand",
+  "category": "examplemod:luyen_dan",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Luyện đan dùng $(thing)Dàn Pha Chế$(). Công thức sử dụng 3 ô bình phía dưới và 1 ô nguyên liệu phía trên. Đan cấp cao cần dùng 2 viên đan cấp thấp làm phôi."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Nếu thành công, ô 0 sẽ nhận đan mới. Nếu thất bại, nguyên liệu bị tiêu hao. Đan càng cao, tỉ lệ thành công càng thấp."
+    }
+  ]
+}

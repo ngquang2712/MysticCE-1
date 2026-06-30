@@ -1,0 +1,13 @@
+{
+  "name": "Yêu Đan",
+  "icon": "examplemod:yeu_dan",
+  "category": "examplemod:vat_pham",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:yeu_dan",
+      "text": "Lõi quái tu tiên, dùng luyện đan cấp thấp."
+    }
+  ]
+}

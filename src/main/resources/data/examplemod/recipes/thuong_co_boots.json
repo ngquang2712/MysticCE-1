@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sculk_catalyst",
+      "count": 16
+    },
+    {
+      "item": "minecraft:nether_star",
+      "count": 16
+    },
+    {
+      "item": "minecraft:netherite_block",
+      "count": 16
+    },
+     {
+      "item": "examplemod:manh_vo_thuong_co",
+      "count": 1
+    },
+      {
+        "item": "examplemod:toi_cao_boots",
+        "count": 1
+      }
+  ],
+  "result": {
+    "item": "examplemod:thuong_co_boots",
+    "count": 1
+  }
+}

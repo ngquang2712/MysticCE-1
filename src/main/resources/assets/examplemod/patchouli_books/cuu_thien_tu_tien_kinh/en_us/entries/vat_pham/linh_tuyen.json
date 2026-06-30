@@ -1,0 +1,13 @@
+{
+  "name": "Linh Tuyền",
+  "icon": "examplemod:linh_tuyen",
+  "category": "examplemod:vat_pham",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:linh_tuyen",
+      "text": "Phụ liệu cơ bản dùng cho Tụ Khí Đan."
+    }
+  ]
+}

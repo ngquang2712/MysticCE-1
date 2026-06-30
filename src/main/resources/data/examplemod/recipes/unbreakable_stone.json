@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HHH",
+    "HNH",
+    " H "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:nether_star"
+    },
+    "N": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "K":{
+      "item" :"minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "examplemod:unbreakable_stone",
+    "count": 1
+  }
+}

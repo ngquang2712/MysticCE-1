@@ -1,0 +1,1 @@
+Đã xóa build/.gradle/run-data khỏi zip để tránh cache. Chạy: gradlew clean runClient. Texture nằm ở src/main/resources/assets/examplemod/textures/item

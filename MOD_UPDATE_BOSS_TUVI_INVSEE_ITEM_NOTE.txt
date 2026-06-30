@@ -1,0 +1,81 @@
+BẢN CẬP NHẬT BOSS + TU VI + INVSEE + [i]
+
+Đã sửa/thêm trên project zip đúng:
+
+1) Boss mới
+- Thêm entity examplemod:mystic_boss, dùng model zombie vanilla, mặc giáp thật, scale khổng lồ bằng renderer.
+- 4 boss:
+  + Hộ Pháp Thượng Cổ: zombie khổng lồ full iron.
+  + Thiên Đạo Hóa Thân: zombie khổng lồ full gold.
+  + Cửu Tinh Cổ Thần: zombie khổng lồ full diamond.
+  + Tiên Đế Thanh Lâm: zombie khổng lồ full netherite.
+- Có bossbar, không cháy nắng, không despawn, có giáp mặc sẵn nhưng không rơi giáp vanilla.
+- Có lệnh test OP: /summonboss hophap | thiendao | cuutinh | tiende
+
+2) Lệnh bài boss
+- Thêm Lệnh Bài Hộ Pháp Thượng Cổ: examplemod:ho_phap_thuong_co_lenh_bai
+- Thêm Lệnh Bài Thiên Đạo Hóa Thân: examplemod:thien_dao_hoa_than_lenh_bai
+- Có recipe JSON trong data/examplemod/recipes.
+- Chuột phải xuống đất để triệu hồi boss.
+
+3) Boss tai họa
+- Cửu Tinh Cổ Thần spawn ngẫu nhiên từ Thời Kỳ Hỗn Độn trở lên.
+- Tiên Đế Thanh Lâm spawn ngẫu nhiên từ Thời Kỳ Thiên Hà.
+- Không spawn nếu gần spawn chính hoặc đang có boss tai họa khác trong vùng người chơi.
+- Có broadcast toàn server khi tai họa xuất hiện.
+
+4) Skill boss
+- Cửu Tinh Cổ Thần:
+  + Triệu hồi quái phụ.
+  + Cửu Tinh Thiên Kiếp gây damage theo % max HP player.
+- Tiên Đế Thanh Lâm:
+  + Triệu hồi Đế Vệ.
+  + Vạn Giới Thiên Kiếp gây damage theo % max HP player, có cap.
+  + Có trạng thái cuồng nộ khi thấp máu.
+
+5) Boss drop đan dược
+- Khi boss chết sẽ rơi đan dược ngẫu nhiên theo phẩm cấp boss.
+- Dùng các đan dược hiện có của project như Tụ Khí Đan, Ngưng Khí Đan, Linh/Huyền/Địa/Thiên/Đạo/Tiên/Đế Nguyên Đan.
+- Boss càng cao thì tỉ lệ đan cao cấp càng cao.
+
+6) Tu vi
+- Đổi tên Bước 3 -> Khuy Niết.
+- Đổi tên Bước 4 -> Đạp Thiên.
+- safeValueOf hỗ trợ nhập KHUY_NIET/KHUYNIET/DAP_THIEN/DAPTHIEN cho lệnh admin.
+- Khuy Niết, Đạp Thiên, Tiên Đế có aura quanh người.
+- Khi đột phá/admin set lên Khuy Niết, Đạp Thiên, Tiên Đế sẽ broadcast thông báo và phát hiệu ứng.
+
+7) Skill Khuy Niết
+- /hophonghoanvu <user>
+- Alias: /hophonghoavu <user>
+- Yêu cầu Khuy Niết trở lên.
+- Cooldown 120 giây.
+- Hất văng player lên trời, gây Slowness/Weakness và damage theo % max HP.
+
+8) Skill Tiên Đế
+- /racdauthanhbinh
+- Chỉ Tiên Đế dùng được.
+- Triệu hồi 3 wolf hộ vệ.
+- Mỗi wolf lấy khoảng 80% chỉ số HP/attack/armor của người dùng.
+- Dùng lại sẽ xóa đợt cũ và gọi đợt mới.
+
+9) /tubao
+- Chỉ Khuy Niết trở lên dùng được.
+- Cooldown 300 giây.
+- Broadcast uy áp theo cảnh giới và gọi hiệu ứng aura burst.
+
+10) /invsee
+- /invsee <player>
+- Sửa để OP dùng được, hoặc người đạt Vấn Đỉnh trở lên dùng được.
+- Hiện danh sách inventory kèm item hover info thay vì chỉ text thô.
+
+11) [i]
+- Sửa [i] thành placeholder trong chat, không chỉ dùng khi tin nhắn đúng bằng [i].
+- Ví dụ: "ai mua [i] không" sẽ thay [i] bằng item đang cầm.
+- Hover vào item sẽ hiện thông tin item thật.
+- Có cooldown 5 giây, nếu tay trống sẽ báo lỗi riêng.
+
+LƯU Ý BUILD
+- Trong sandbox không build được do Gradle Wrapper cần tải gradle-8.8-bin.zip từ services.gradle.org nhưng môi trường không có Internet.
+- Hãy mở project trên máy có Internet và chạy: ./gradlew build
+- Nếu báo lỗi compile, gửi log lỗi để sửa tiếp.

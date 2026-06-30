@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sculk_catalyst",
+      "count": 16
+    },
+    {
+      "item": "minecraft:nether_star",
+      "count": 16
+    },
+    {
+      "item": "minecraft:netherite_block",
+      "count": 9
+    },
+     {
+      "item": "examplemod:toi_cao_pet_egg",
+      "count": 2
+    }
+  ],
+  "result": {
+    "item": "examplemod:thuong_co_pet_egg",
+    "count": 1
+  }
+}

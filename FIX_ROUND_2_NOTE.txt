@@ -1,0 +1,5 @@
+Round 2 fixes:
+1. Rewrote enhancement enchant logic: Sharpness/Power/Efficiency now updates the existing enchantment level through EnchantmentHelper.setEnchantments, so it becomes Sharpness I -> II -> III in one line instead of duplicate enchant lore lines.
+2. Replaced/filled all expansion item models with vanilla Minecraft item textures.
+3. Expanded alchemy recipes: added base recipes and chained pill-upgrade recipes using low-tier pills as input/ingredients to create higher-tier pills.
+4. Reworked Bi Canh waves to reuse the existing cultivation mob system and the existing MysticBossEntity/MysticBossKind bosses instead of custom zombie/wither raid entities.

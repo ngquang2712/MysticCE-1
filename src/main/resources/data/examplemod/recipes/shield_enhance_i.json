@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "GNG",
+    " B "
+  ],
+  "key": {
+    "N": { "item": "minecraft:netherite_ingot" },
+    "G": { "item": "minecraft:amethyst_shard" },
+    "B": { "item": "minecraft:nether_star" }
+  },
+  "result": { "item": "examplemod:shield_enhance_i", "count": 1 }
+}

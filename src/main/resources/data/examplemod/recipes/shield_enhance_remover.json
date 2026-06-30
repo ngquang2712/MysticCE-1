@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "GNG",
+    " B "
+  ],
+  "key": {
+    "B": { "item": "minecraft:glow_ink_sac" },
+    "G": { "item": "minecraft:amethyst_shard" },
+    "N": { "item": "minecraft:nether_star" }
+  },
+  "result": { "item": "examplemod:shield_enhance_remover", "count": 1 }
+}

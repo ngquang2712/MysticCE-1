@@ -1,0 +1,16 @@
+{
+  "name": "Tổng quan Môn Phái",
+  "icon": "minecraft:bell",
+  "category": "examplemod:mon_phai",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Kim Đan+ có thể tạo môn phái. Có 5 hệ: Luyện Thi, Luyện Hồn, Luyện Thể, Luyện Kiếm, Tu Đạo. Môn phái xếp hạng theo tổng linh khí thành viên."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Chức vụ gồm Tông Chủ, Đại Trưởng Lão, Trưởng Lão, Đệ Tử. Có quyền mời, đuổi, thăng chức, chuyển chủ tùy cấp quyền."
+    }
+  ]
+}

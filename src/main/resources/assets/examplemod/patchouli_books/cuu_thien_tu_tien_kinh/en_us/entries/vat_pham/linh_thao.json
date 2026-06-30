@@ -1,0 +1,13 @@
+{
+  "name": "Linh Thảo",
+  "icon": "examplemod:linh_thao",
+  "category": "examplemod:vat_pham",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "examplemod:linh_thao",
+      "text": "Linh thảo cơ bản, dùng luyện Tụ Khí Đan."
+    }
+  ]
+}

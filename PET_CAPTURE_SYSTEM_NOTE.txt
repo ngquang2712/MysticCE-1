@@ -1,0 +1,37 @@
+Mystic Pet Capture System
+=========================
+
+Bản này đã đổi hệ pet sang kiểu thu phục sinh vật trong modpack.
+
+Cách dùng:
+- Cầm trứng pet Truyền Thuyết / Tối Cao / Thượng Cổ.
+- Chuột phải trực tiếp vào một LivingEntity để thu phục.
+- Sinh vật sẽ được lưu vào Pet Storage 3 slot.
+- Dùng /callpet <slot> để gọi pet ra.
+- Dùng /petstore để cất pet đang active.
+- Dùng /renamepet <ten> để đổi tên pet, hỗ trợ mã màu giống rename item.
+
+Cơ chế lưu:
+- Lưu entity type id, ví dụ iceandfire:fire_dragon.
+- Lưu NBT gốc của entity.
+- Gọi lại bằng EntityType.create(NBT, level), nên pet giữ model, texture, animation, chỉ số và skill gốc của mob.
+- Gắn thêm tag MysticCapturedPet để biết owner, pet id, rarity, level.
+
+Lưu ý:
+- Không cho bắt Player, Ender Dragon, Wither, Villager, Wandering Trader mặc định.
+- Một số boss/mod mob quá đặc biệt có thể cần blacklist thêm nếu gây lỗi hoặc mất cân bằng.
+- Môi trường ChatGPT không tải được Gradle nên chưa compile trực tiếp được. Nếu IDE báo lỗi, gửi log để sửa tiếp.
+
+Quy tắc thu phục mới:
+- Trứng `Truyền Thuyết`: chỉ thu phục mục tiêu có HP tối đa dưới 50, tỉ lệ thành công 60%.
+- Trứng `Tối Cao`: chỉ thu phục mục tiêu có HP tối đa dưới 120, tỉ lệ thành công 30%.
+- Trứng `Thượng Cổ`: không giới hạn HP, tỉ lệ thành công 10%.
+- Khi thu phục thất bại, trứng sẽ bị tiêu thụ và hiển thị thông báo thất bại cho người chơi.
+
+Update: pet combat + delete command
+- Added /deletepet <slot> and alias /petdelete <slot> to permanently remove a stored pet.
+- Active pets now receive attack orders when the owner attacks a LivingEntity.
+- Active pets now receive attack orders when a LivingEntity attacks the owner.
+- Pet damage against its owner is canceled.
+- Owner damage against own pet is canceled.
+- Pets will not target their owner or another pet owned by the same player.

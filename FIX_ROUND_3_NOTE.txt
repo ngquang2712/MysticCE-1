@@ -1,0 +1,4 @@
+FIX ROUND 3
+- Fixed anvil enhancement dupe: anvil output is now original item; failure only consumes enhancement shard and does not add/return an extra weapon. Success mutates the anvil output stack directly.
+- Changed Secret Realm gatekeeper: Kẻ Gác Cổng Bí Cảnh is now a custom armored Zombie with 1000 HP, not one of the existing MysticBossEntity bosses.
+- Secret Realm wave 4 still uses the four existing Mystic bosses. Their HP remains from MysticBossKind: 10k / 20k / 50k / 100k.
